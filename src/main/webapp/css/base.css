@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* tree icon */
+.jstree a ins.system{
+    background: url(../images/tree/system.png) no-repeat center center !important;
+}
+.jstree a ins.menu{
+    background: url(../images/tree/menu.gif) no-repeat center center !important;
+}
+.jstree a ins.department{
+    background: url(../images/tree/department.gif) no-repeat center center !important;
+}
+.jstree a ins.role{
+    background: url(../images/tree/role.gif) no-repeat center center !important;
+}
+.jstree a ins.button{
+    background: url(../images/tree/button.png) no-repeat center center !important;
+}

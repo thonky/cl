@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+.l-dialog-tl{
+	height:38px;
+	width:12px;
+	background:url(../images/win/t-l.png) no-repeat 0 0 transparent !important;
+}
+.l-dialog-tc{
+	height:38px;
+	background:url(../images/win/t-b.png) repeat-x 0 0 transparent !important;
+}
+.l-dialog-tr{
+	height:38px;
+	width:12px;
+	background:url(../images/win/t-r.png) no-repeat 0 0 transparent !important;
+}
+.l-dialog-cl{
+	width:12px;
+	background:url(../images/win/m-l.png) repeat-y 0 0 transparent !important;
+}
+.l-dialog-cr{
+	width:12px;
+	background:url(../images/win/m-r.png) repeat-y 0 0 transparent !important;
+}
+.l-dialog-bl{
+	height:15px;
+	width:12px;
+	font-size:1px;
+	line-height:1px;
+	background:url(../images/win/b-l.png) no-repeat 0 0 transparent !important;
+}
+.l-dialog-bc{
+	height:15px;
+	font-size:1px;
+	line-height:1px;
+	background:url(../images/win/b-b.png) repeat-x 0 0 transparent !important;
+}
+.l-dialog-br{
+	height:15px;
+	width:12px;
+	font-size:1px;
+	line-height:1px;
+	background:url(../images/win/b-r.png) no-repeat 0 0 transparent !important;
+}
+.l-dialog-close{
+	background:url(../images/win/win-t-close.jpg) no-repeat 0 0 transparent !important;
+}
+.l-dialog-title{
+	color:#fff !important;
+	line-height:38px !important;
+}
+.l-dialog-tc-inner{
+	height:38px;
+	line-height:38px;
+}
+.l-dialog-winbtn{
+	hegiht:15px;
+	margin-top:3px;
+}
+.l-dialog-close{
+	width:13px;
+	margin-right:5px;
+	background:url(../images/win/close_win.gif) no-repeat 0 0 transparent !important;
+}
+.l-dialog-max{
+	width:16px;
+	margin-right:10px;
+	background:url(../images/win/max_win.gif) no-repeat 0 1px transparent !important;
+}
+.l-dialog-buttons{
+	background:#efefef;
+	border-top:1px solid #05aaff;
+}
+.l-dialog-body{
+	background:#fff;
+}
+.l-dialog-win .l-dialog-content{
+	padding:10px 0 0 0;
+}
+.l-dialog-buttons{
+	margin-top:0px;
+}
+
+.win_btn_div{
+	padding:8px 0;
+	height:26px;
+}
+.win_btn_div .operating{
+	margin-right:10px;
+	float:right;
+}
+.win_title{
+	padding-left:20px;
+	font-weight:bold;
+	margin-top:5px;
+	background:#d9f2ff;
+	height:35px;
+	line-height:35px;
+}
+
+
+/* 提示窗口 */
+.win-tips-btn{
+	width:58px;
+	height:19px;
+	border:0px;
+	cursor: pointer;
+	background: url(../images/input/win_tip_btn.gif) no-repeat;
+}
+.win-tips-btn:hover{
+	border:0px;
+}
+.win-qr-btn{
+	width:58px;
+	height:19px;
+	border:0px;
+	cursor: pointer;
+	background: url(../images/input/win_qr_btn.gif) no-repeat;
+}
+.win-qr-btn:hover{
+	border:0px;
+}
+.l-verify-tip-content{
+	padding:10px !important;
+	left:0px;
+	top:0px;
+}
+.l-verify-tip-corner{
+	background: url(../images/win/verify-corner.gif) no-repeat !important;
+	width:9px;
+	height:8px;
+	top:63px;
+	left:20px;
+}
+.l-verify-tip-close{
+	width:7px;
+	height:7px;
+	background: url(../images/win/tips_close.gif) no-repeat;
+	position:absolute;
+	top:5px;
+	right:5px;
+	z-index:10001;
+	cursor:pointer;
+}

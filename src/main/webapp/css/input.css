@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* form cls */
+
+input 
+, textarea
+, select
+{
+	font-family: Verdana, 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+	font-size: 12px;
+	color: #424242;
+	padding: 5px 6px;
+	border: 1px solid #CCC;
+	outline: none;
+	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	
+	-moz-transition: border .2s linear, box-shadow .2s linear;
+	-webkit-transition: border .2s linear, -webkit-box-shadow .2s linear;
+	vertical-align: middle;
+}
+
+input:focus 
+, textarea:focus
+, select:focus
+{
+    border: 1px solid #80bfff;
+    
+    -moz-box-shadow: 0 0 3px #80bfff, 0 1px 2px rgba(0, 0, 0, .15) inset;
+    -webkit-box-shadow: 0 0 3px #80bfff, 0 1px 2px rgba(0, 0, 0, .15) inset;
+    box-shadow: 0 0 3px #80bfff, 0 1px 2px rgba(0, 0, 0, .15) inset;
+}
+input:hover
+, textarea:hover
+, select:hover{
+    border: 1px solid #80bfff;
+
+    -moz-box-shadow: 0 0 3px #80bfff, 0 1px 2px rgba(0, 0, 0, .15) inset;
+    -webkit-box-shadow: 0 0 3px #80bfff, 0 1px 2px rgba(0, 0, 0, .15) inset;
+    box-shadow: 0 0 3px #80bfff, 0 1px 2px rgba(0, 0, 0, .15) inset;
+}
+
+a.buttonCls, a.buttonCls span{
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	cursor: pointer;
+}
+a.buttonCls{
+	background: url(../images/input/lsgs_39.gif) no-repeat left center;
+	padding-left: 15px;
+	color: #000;
+	text-decoration: none;
+}
+a.buttonCls:hover{
+	text-decoration: none;
+	background: url(../images/input/lsgs_39_h.gif) no-repeat left center;
+}
+a.buttonCls span{
+	background: url(../images/input/lsgs_39.gif) no-repeat right center;
+	padding-right: 15px;
+}
+a.buttonCls:hover span{
+	background: url(../images/input/lsgs_39_h.gif) no-repeat right center;
+}
+
+/* operating */
+.operating{
+	height:26px;
+	line-height:26px;
+	cursor:pointer;
+}
+.operating a{
+	display: inline-block;
+	white-space: nowrap;
+	padding-right: 0 !important;
+	cursor: pointer;
+	height: 26px;
+	padding-left: 14px;
+	color: #fff;
+}
+.operating a span{
+	display: inline-block;
+	padding-right: 14px;
+}
+.operating a span em{
+	display: inline-block;
+	float:left;
+	margin-top:5px;
+	margin-right:5px;
+}
+.operating a:hover{
+	font-weight: normal !important;
+	bottom: 0 !important;
+	text-decoration: none;
+}
+
+/* blue-btn */
+.blue-btn{
+	background: transparent url(../images/input/blue_btn_left.gif) no-repeat left center !important;
+}
+.blue-btn span{
+	background: transparent url(../images/input/blue_btn_right.gif) no-repeat right center !important;
+}
+.blue-btn:hover{
+	background: transparent url(../images/input/blue_btn_left2.gif) no-repeat left center !important;
+}
+.blue-btn:hover span{
+	background: transparent url(../images/input/blue_btn_right2.gif) no-repeat right center !important;
+}
+/* blue-btn */
+.green-btn{
+	background: transparent url(../images/input/green_btn_left.gif) no-repeat left center !important;
+}
+.green-btn span{
+	background: transparent url(../images/input/green_btn_right.gif) no-repeat right center !important;
+}
+.green-btn:hover{
+	background: transparent url(../images/input/green_btn_left2.gif) no-repeat left center !important;
+}
+.green-btn:hover span{
+	background: transparent url(../images/input/green_btn_right2.gif) no-repeat right center !important;
+}
+/* red-btn */
+.red-btn{
+	background: transparent url(../images/input/red_btn_left.gif) no-repeat left center !important;
+}
+.red-btn span{
+	background: transparent url(../images/input/red_btn_right.gif) no-repeat right center !important;
+}
+.red-btn:hover{
+	background: transparent url(../images/input/red_btn_left2.gif) no-repeat left center !important;
+}
+.red-btn:hover span{
+	background: transparent url(../images/input/red_btn_right2.gif) no-repeat right center !important;
+}
+
+/* 弹出窗口btn */
+.l-dialog-btn{
+	height:26px;
+	background: transparent url(../images/input/blue_btn_center.gif) repeat-x 0 0 !important;
+	color:#fff;
+}
+.l-dialog-btn-over{
+	height:26px;
+	background: transparent url(../images/input/blue_btn_center2.gif) repeat-x 0 0 !important;
+	color:#fff;
+}
+.l-dialog-btn-l{
+	height:26px;
+	width:12px;
+	background: transparent url(../images/input/blue_btn_left.gif) no-repeat left center !important;
+}
+.l-dialog-btn-over .l-dialog-btn-l{
+	background: transparent url(../images/input/blue_btn_left2.gif) no-repeat left center !important;
+}
+.l-dialog-btn-r{
+	height:26px;
+	width:12px;
+	background: transparent url(../images/input/blue_btn_right.gif) no-repeat right center !important;
+}
+.l-dialog-btn-over .l-dialog-btn-r{
+	background: transparent url(../images/input/blue_btn_right2.gif) no-repeat right center !important;
+}
+

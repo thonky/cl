@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* header */
+.header{
+	background: url(../images/head/headebg.gif) repeat-x left top;
+	height: 79px;
+	padding-right:1px;
+	border-bottom:5px solid #8cd8ff;
+	border-top:5px solid #2468a2;
+}
+.system-logo{
+	float: left;
+	width: 395px;
+	height: 79px;
+	margin-left:10px;
+	background: url(../images/head/logo.jpg) no-repeat left top;
+}

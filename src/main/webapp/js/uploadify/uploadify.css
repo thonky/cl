@@ -1,0 +1,232 @@
+/*
+Uploadify
+Copyright (c) 2012 Reactive Apps, Ronnie Garcia
+Released under the MIT License <http://www.opensource.org/licenses/mit-license.php> 
+*/
+body{
+	font-size: 12px;
+}
+ul li{
+	list-style: none;
+}
+ul, ul li{
+	margin: 0;
+	padding: 0;
+}
+.uploadify {
+	position: relative;
+}
+.uploadify-button {
+	/*background-color: #284b92;
+	background-image: linear-gradient(top, #2c539e 0%, #244487 100%);
+	background-image: -o-linear-gradient(top, #2c539e 0%, #244487 100%);
+	background-image: -moz-linear-gradient(top, #2c539e 0%, #244487 100%);
+	background-image: -webkit-linear-gradient(top, #2c539e 0%, #244487 100%);
+	background-image: -ms-linear-gradient(top, #2c539e 0%, #244487 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #2c539e),
+		color-stop(1, #244487)n
+	);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #00236f;
+	color: #FFF;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	width: 100%;*/
+	background: url(lsgs_39.gif) no-repeat left center;
+	padding-left: 15px;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	_display: inline;
+	height: 26px !important;
+	line-height: 26px !important;
+	cursor: pointer;
+	width: auto !important;
+}
+.uploadify:hover .uploadify-button {
+	/*background-color: #284b92;
+	background-image: linear-gradient(bottom, #2c539e 0%, #244487 100%);
+	background-image: -o-linear-gradient(bottom, #2c539e 0%, #244487 100%);
+	background-image: -moz-linear-gradient(bottom, #2c539e 0%, #244487 100%);
+	background-image: -webkit-linear-gradient(bottom, #2c539e 0%, #244487 100%);
+	background-image: -ms-linear-gradient(bottom, #2c539e 0%, #244487 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #2c539e),
+		color-stop(1, #244487)
+	);
+	background-position: center bottom;*/
+	text-decoration: none;
+	background: url(lsgs_39_h.gif) no-repeat left center;
+	width: auto !important;
+}
+.uploadify-button-text{
+	background: url(lsgs_39.gif) no-repeat right center;
+	padding-right: 15px;
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	cursor: pointer;
+}
+.uploadify:hover .uploadify-button-text{
+	background: url(lsgs_39_h.gif) no-repeat right center;
+}
+
+.uploadify-button.disabled {
+	background-color: #D0D0D0;
+	color: #808080;
+}
+.uploadify-queue {
+	margin-bottom: 1em;
+}
+.uploadify-queue-item {
+	background-color: #F5F5F5;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font: 11px Verdana, Geneva, sans-serif;
+	margin-top: 5px;
+	padding: 10px;
+}
+.uploadify-error {
+	background-color: #FDE5DD !important;
+}
+.uploadify-queue-item .cancel a {
+	background: url('uploadify-cancel.png') 0 0 no-repeat;
+	float: right;
+	height:	16px;
+	text-indent: -9999px;
+	width: 16px;
+}
+.uploadify-queue-item.completed {
+	background-color: #E5E5E5;
+}
+.uploadify-progress {
+	background-color: #E5E5E5;
+	margin-top: 10px;
+	width: 100%;
+}
+.uploadify-progress-bar {
+	background-color: #0099FF;
+	height: 3px;
+	width: 1px;
+}
+
+/* add */
+.loadText{
+	float: left;
+	line-height: 30px;
+	background: url(hand.jpg) no-repeat 0 center;
+	padding-left: 40px;
+	color: #c4c4c4;
+}
+.loadFile{
+	float: right;
+}
+#fileQueue{
+	clear: both;
+	padding-top: 20px;
+}
+.uploadCls{
+	width: 485px;
+	margin: 0 auto;
+}
+.uploadCls ul li{
+	float: left;
+	margin-right: 10px;
+	margin-top: 4px;
+	height: 25px;
+}
+.uploadCls ul li a.curfile{
+	display: inline-block;
+	height: 23px;
+	background: #f5f5f5 url(bb1.jpg) no-repeat 6px center;
+	border: 1px solid #b8b8b8;
+	color: #000;
+	text-decoration: none;
+	padding-left: 20px;
+	overflow: hidden;
+	font:12px/23px tahoma,arial,\5b8b\4f53;
+	cursor: auto;
+}
+.uploadCls ul li a.curfile span{
+    display: inline-block;
+    float: right;
+    height: 16px;
+    margin: 3px 6px 0;
+    width: 16px;
+	background: url(close.jpg) no-repeat 0 0;
+	cursor: pointer;
+}
+
+.uploadCls ul li a.curfile:hover{
+	background: #ff9f49 url(bb2.jpg) no-repeat 6px center;
+	border: 1px solid #e17617;
+	color: #823d00;
+}
+.uploadCls ul li a.curfile:hover span{
+	background: url(close_h.jpg) no-repeat 0 0;
+}
+/* btn */
+a.add-btn{
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	color: #fff;
+	background: url(btn1.jpg) no-repeat 0 center;
+	padding-left: 15px;
+	text-decoration: none;
+}
+a.add-btn span{
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	background: url(btn1.jpg) no-repeat right center;
+	padding-right: 15px;
+}
+a.add-btn:hover{
+	background: url(btn1_1.jpg) no-repeat 0 center;
+}
+a.add-btn:hover span{
+	background: url(btn1_1.jpg) no-repeat right center;
+}
+
+
+a.clear-btn{
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	color: #edecec;
+	background: url(btn2.jpg) no-repeat 0 center;
+	padding-left: 15px;
+	text-decoration: none;
+}
+a.clear-btn span{
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	background: url(btn2.jpg) no-repeat right center;
+	padding-right: 15px;
+}
+a.clear-btn:hover{
+	background: url(btn2_1.jpg) no-repeat 0 center;
+}
+a.clear-btn:hover span{
+	background: url(btn2_1.jpg) no-repeat right center;
+}
+
+.btnArea{    
+	padding-top: 10px;
+    text-align: right;
+}

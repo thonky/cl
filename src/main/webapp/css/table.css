@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* fpi-table cls */
+table.fpi-table{
+	border: 1px solid #d7d7d7;
+	border-bottom: none;
+	background-color: #fff;
+}
+table.fpi-table tr th{
+	border-bottom: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+	text-align: center;
+	height: 35px;
+	background:#ebebeb;
+	font-weight: bold;
+}
+table.fpi-table tr td{
+	border-bottom: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+	text-align: center;
+	height: 35px;
+}
+table.fpi-table tr td a{
+	color: #164cb8;
+}
+
+table.fpi-table tr td img{
+	vertical-align:middle;
+}
+/* fpi-table-w */
+.fpi-table-win{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+.fpi-table-win td ,.fpi-table-w th{
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:5px;
+	line-height:22px;
+}
+.fpi-table-win th{
+	background:#ebeaea;
+	text-align:right;
+	padding:0px;
+}
+/* fpi-table02 */
+.fpi-table02{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+.fpi-table02 td ,.fpi-table02 th{
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:5px;
+	line-height:22px;
+}
+.fpi-table02 th{
+	background:#ebeaea;
+	text-align:right;
+}

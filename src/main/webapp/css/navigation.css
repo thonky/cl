@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* 一级菜单 */
+.system-menu{
+	float: right;
+}
+.system-menu ul li{
+	float: left;
+	margin-top:1px;
+	text-align: center;
+	width:95px;
+	height: 78px;
+	color: #fff;
+	cursor:pointer;
+}
+
+.system-menu ul li.hover{
+	background: url(../images/head/nav_selected.gif) no-repeat top;
+}
+
+.system-menu ul li  div{
+	margin-top: 9px;
+}
+.system-menu ul li  span{
+	margin-top: 5px;
+	display: inline-block;
+}
+.system-menu ul li a{
+	color:#fff;
+}
+/* 二级菜单 */
+.navigation{
+	clear: both;
+	background: url(../images/navigation/crumbsbg.gif) repeat-x left top;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	position:relative;
+}
+.bread-crumbs{
+	float: left;
+	background: url(../images/navigation/lsgs_34.png) no-repeat 8px 13px;
+	padding-left: 27px;
+	line-height: 40px;
+}
+.bread-crumbs a{
+	color: #444444;
+	font-weight: bold;
+}
+.full-screen{
+	float:right;
+	width:15px;
+	height:15px;
+	margin:10px 10px 0 0;
+}
+#second-nav{
+	float: right;
+}
+.second-nav{
+	padding-top: 7px;
+	padding-right:5px;
+	height:26px;
+	line-height:25px;
+}
+.second-nav li{
+	height:26px;
+	float:left;
+	background:url(../images/navigation/nav_line.jpg) right center no-repeat;
+	padding:0 3px;
+}
+.second-nav li a{
+	padding-left:12px;
+}
+.second-nav li a span{
+	padding-right:12px;
+}
+.second-nav li.selected a ,.second-nav li a:hover{
+	display:block;
+	height:26px;
+	line-height:23px;
+	padding-left:12px;
+	color:#fff;
+	float:left;
+	background:url(../images/navigation/subnav_left.gif) no-repeat left;
+}
+.second-nav li.selected a span ,.second-nav li a:hover span{
+	display:block;
+	height:26px;
+	padding-right:12px;
+	float:left;
+	background:url(../images/navigation/subnav_right.gif) right no-repeat;
+}
+
+#second-nav ul{
+	display: none;
+}
+#second-nav ul.block{
+	display: block;
+}
+
+.linkpoint{
+	cursor:hand;	
+}

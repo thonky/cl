@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Refresh" />
+<title>会话超时</title>
+<script type="text/javascript">
+	var i = 5;
+	function timeout() {
+		document.getElementById("timeout").innerHTML = i--;
+		if (i == 0) {
+			window.location.href = "${pageContext.request.contextPath }/login.jsp";
+		}
+		setTimeout(timeout, 1000);
+	}
+	window.onload = timeout
+</script>
+</head>
+<body>
+	<div style="padding: 10px;">
+		会话超时，请重新<a href="${pageContext.request.contextPath }/login.jsp">登录</a>，
+		<span id="timeout"></span> 秒后自动跳转到登录页面
+	</div>
+</body>
+</html>

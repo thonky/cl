@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* footer */
+.footer{
+	height: 34px;
+	line-height: 34px;
+	background: url(../images/footer/footbg.gif) repeat-x 0 0;
+	overflow: hidden;
+	color: #000;
+}
+.footer a{
+	color: #000;
+}
+.member-info{
+	float: left;
+	padding-left: 10px;
+}
+.member-info span{
+	font-weight: bold;
+}
+.copyright{
+	float: right;
+	padding-right: 10px;
+}

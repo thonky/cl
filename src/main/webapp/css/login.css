@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.bodybg{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	background:url(../images/login/tjloginbg.jpg) repeat-x top;
+	color:#fff;
+}
+.InputStyle{
+	width:134px;
+	height:26px;
+	line-height:26px;
+	background:url(../images/login/inputbg.jpg) no-repeat;
+	border:0px;
+	padding-left:5px;
+}
+.ButtonStyle{
+	width:126px;
+	height:42px;
+	background:url(../images/login/buttonbg.gif) no-repeat;
+	border:0px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+}
+.TJLogin{
+	width:870px;
+	margin:108px auto auto auto;
+}
+.TJLogin .Top{
+	height:80px;
+	background:url(../images/login/tjlogin01.jpg) no-repeat;
+}
+.TJLogin .Middle{
+	height:322px;
+	background:url(../images/login/tjlogin02.jpg) no-repeat;
+}
+.TJLogin .Middle .Content{
+	width:210px;
+	margin:0 35px 0 0;
+	_margin:0 15px 0 0;
+	float:right;
+	padding:110px 0 0 0;
+	_padding:100px 0 0 0;
+	list-style-type:none;
+}
+.TJLogin .Middle .Content li{
+	height:25px;
+	line-height:25px;
+	margin:0;
+	padding:10px 0 0 0;
+	vertical-align:bottom
+}
+.TJLogin .Middle .Content li div{
+	height:25px;
+	width:60px;
+	float:left;
+	font-size:14px;
+}
+.TJLogin .Middle .Content li span{
+	height:25px;
+	float:left;
+}
+.TJLogin .Middle .Content .ErrInfo{
+	color:#FFFF00;
+	padding-top:20px;
+	text-align:center
+}
+.TJLogin .Bottom{
+	height:61px;
+	line-height:40px;
+	color:#565a5e;
+	text-align:right;
+	padding-right:30px;
+	background:url(../images/login/tjlogin03.jpg) no-repeat;
+}
